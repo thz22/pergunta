@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.capacapa {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    color: white;
+    bottom: 45px;
+    right: 45px;
+}
+
+a{
+    text-decoration: solid;
+    color: green;
+}
+
+.box{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    height: 350px;
+    width: 450px;
+    border-radius: 20px;
+    background: black;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-buttons{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 160px;
+}
+
+button{
+
+    height: 40px;
+    width: 60px;
+    background: white;
+    border-radius: 7px;
+    color: red;
+    font-weight: 1000;
+}
